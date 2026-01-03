@@ -3,6 +3,7 @@ name: Build & Publish Multi‑Arch Image
 on:
   push:
     branches:
+      - master
       - main
   pull_request:
 
